@@ -2,7 +2,7 @@ BACKUP ~SOS/BACKUP~
 
 AUTHOR ~Charles Bisson, Horred The Plague (WeiDU), King Diamond (WeiDU revision), Weigo (WeiDU EE revision)~  NO_IF_EVAL_BUG
 
-VERSION ~2.01~
+VERSION ~2.21~
 
 AUTO_TRA ~SOS/Language/%s~
 
@@ -17,9 +17,6 @@ ALWAYS
     OUTER_SPRINT name_source ~bg2_chapter_%i%~
     OUTER_SET EVAL ~%name_source%~ = bg2_chapter
   END
-  // Convert strings to UTF-8 for Enhanced Edition
-
-  // setup.tra needs to be reloaded after conversion
   
 <<<<<<<< .../blank.txt
 >>>>>>>>
